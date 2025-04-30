@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="https://github.com/Tori-Bemide/article-listing/blob/main/index.html">
       Solution
     </a>
     <span> | </span>
@@ -50,5 +50,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Author
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+- GitHub [@Tori-Bemide](https://github.com/Tori-Bemide/)
