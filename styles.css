@@ -1,0 +1,113 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+=============================
+Fonts
+============================= 
+ */
+
+ @font-face{
+    font-family: 'Poppins';
+    src: url(./fonts/Poppins-Regular.ttf)format(truetype);
+ }
+
+ /*
+=============================
+Variables
+============================= 
+ */
+:root{
+    --black: rgb(0,0,0);
+    --dark-grey: rgb(77, 85, 98);
+    --light-grey: rgb(217, 217, 217);
+    --white: rgb(251, 250, 252);
+    --border-radius: 0.75rem;
+}
+
+ /*
+=============================
+Global Styles
+============================= 
+ */
+ 
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: "Poppins";
+    color: var(--black);
+    background-color: var(--white);
+}
+
+main{
+    margin:  2.5rem 2.25rem;
+    max-width: 1000px;
+    display: grid;
+    place-items: center;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    /* font-size: 2.5rem; */
+    margin-bottom: 2.25rem;
+}
+
+.articles{
+    margin: 1.95rem 0;
+}
+
+.article{
+    margin-bottom: 2.5rem;
+}
+
+.article-image{
+    border-radius: var(--border-radius);
+    height: 9.5rem;
+    width: 9.5rem;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+.date{
+    color: var(--dark-grey);
+    margin-top: 0.75rem;
+}
+
+@media screen and (min-width:768px) {
+    header{
+        max-width: 500px;
+    }
+    .article{
+        display: flex;
+        align-items: center;
+        max-width: 725px;
+        margin-bottom: 3.5rem;
+    }
+
+    .article-image{
+        height: 10.5rem;
+        width: 10.5rem;
+        margin-bottom: 0;
+        margin-right: 4.25rem;
+    }
+}
+
+      .author-info {
+        color: #000;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(0,0,0);
+      }
+
+      .author-info a {
+        text-decoration: none;
+        color: var(--dark-grey);
+      }
